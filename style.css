@@ -1,0 +1,26 @@
+
+
+.short-text { 
+    display: none;
+    font-size:25px;    
+    }
+.full-text { 
+        font-size: 35px;
+        padding-left: 10px;
+        padding-bottom: 35px;    
+    }
+
+@media (max-width: 570px) {
+    .short-text { display: inline-block; }
+    .full-text { display: none; }
+}
+
+
+#sideNav {
+    border-style: solid;
+    border-right-color: steelblue;
+    border-width: 5px;
+    border-top:unset;
+    border-bottom:unset;
+}
+
