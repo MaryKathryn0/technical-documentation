@@ -41,11 +41,9 @@
     border-top-color: transparent;   */
     /* border-bottom:thin; */
     }
-@media (max-width: 500px) {
-    .short-text { display: inline-block; font-size: 20px;}
-    .full-text { display: none; }
 
-@media (min-width: 500px) and (max-width: 620px) {
+
+@media (max-width: 620px) {
     .short-text { display: inline-block; }
     .full-text { display: none; }
 }
